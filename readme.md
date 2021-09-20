@@ -50,3 +50,23 @@
 	"git add *" para adicionar todos os arquivos que estavam com o status modified para serem comitados
 . Digite o comando (sem aspas simples) para commitar os arquivos modificados
 	'git commit -m "_aqui vai uma mensagem_"
+
+## Trabalhar com repositório remoto
+* No navegador:
+. No github, clique em _Repositories_
+. Clique no botão _new_
+. Escolha o nome do repositório e a descrição
+. Selecione a opção _Public_
+. Pode criar um README, caso não tenha criado
+. Clique no botão _Create repository_
+. Copie a url criada (está no quadro "or push an existing repository from the command line)
+* No gitbash:
+. Digite o comando (sem aspas)
+	". git remote add origin _https://github.com/_nomeUsuario_/_nomeRepositorio_"
+. Digite o comando (sem aspas) para ver se está tudo ok
+	"git remote -v"
+. Digite o comando (sem aspas) para enviar o repositório local para o remoto
+	"git push origin main" 
+	Dependendo da situação pode ser master no lugar de main
+
+**Pronto, os arquivos agora estão no repositório remoto!** 
