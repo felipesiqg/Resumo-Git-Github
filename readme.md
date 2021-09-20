@@ -26,6 +26,9 @@
 	"ssh-add id_ed25519"
 . Digite a senha da chave criada anteriormente e pressione enter
 
+## Resolvendo problema de autenticação
+[password authentication was removed please use a personal access to](https://stackoverflow.com/questions/68775869/support-for-password-authentication-was-removed-please-use-a-personal-access-to)
+
 ## Iniciando um novo repositório com git (criaremos a pasta workspace dentro da pasta c)
 * Criar a pasta
 . Dentro da pasta c/Users/_nomeUsuario_ digite o comando 
